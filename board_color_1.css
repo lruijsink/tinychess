@@ -1,0 +1,41 @@
+.board_light_square {
+	background-color: #d6bea4;
+}
+
+.board_dark_square {
+	background-color: #8e5438;
+}
+
+.board_light_square_highlight {
+	background-color: #FFFF77;
+}
+
+.board_dark_square_highlight  {
+	background-color: #E0E05F;
+}
+
+.board_light_square_premove {
+	background-color: #DD0000;
+}
+
+.board_dark_square_premove  {
+	background-color: #AA0000;
+}
+
+
+.board_light_square_hover {
+	background-color: #e5d2be;
+}
+
+.board_dark_square_hover  {
+	background-color: #9e7356;
+}
+
+.board {
+	background-color: #5f2922;
+}
+
+.board_border_left ul li span,
+.board_border_bottom ul li span {
+	color: #d6bea4;
+}

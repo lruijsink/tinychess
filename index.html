@@ -1,0 +1,105 @@
+<html>
+
+<head>
+
+<!-- Custom fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="theme_dark.css">
+<link rel="stylesheet" type="text/css" href="board_color_1.css">
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="main.js"></script>
+<script src="layout.js"></script>
+<script src="pieces.js"></script>
+<script src="board.js"></script>
+<script src="position.js"></script>
+<script src="settings.js"></script>
+<script src="game.js"></script>
+
+<!-- Meta data -->
+<title>Tiny Chess</title>
+
+</head>
+
+<body onload="initializeMainModule();">
+
+	<!-- Content frame -->
+	<div class="content_frame unselectable">
+
+		<!-- Center frame -->
+		<div class="center_frame">
+
+			<!-- Top -->
+			<div class="top_player">
+				<div class="top_player_info">
+					<div class="top_player_avatar"><img src="player1avatar.png" /></div>
+					<div class="top_player_text">
+						<div class="top_player_name">Lucgr</div>
+						<div class="top_player_rating">2654</div>
+					</div>
+					&nbsp;
+				</div>
+				<div class="top_player_clock">
+					<div class="top_player_timeleft">
+						5:00
+					</div>
+					<div class="top_player_timewheel">
+					</div>
+				</div>
+			</div>
+			
+			<!-- Spacer -->
+			<div class="board_spacer"></div>
+
+			<!-- Board -->
+			<div class="board">
+				<div class="board_border_top"></div>
+				<div class="board_border_left"></div>
+				<div class="board_squares"></div>
+				<div class="board_border_right"></div>
+				<div class="board_border_bottom"></div>
+			</div>
+			
+			<!-- Spacer -->
+			<div class="board_spacer"></div>
+
+			<!-- Bottom -->
+			<div class="bottom_player">
+				<div class="bottom_player_info">
+					<div class="bottom_player_avatar"><img src="player1avatar.png" /></div>
+					<div class="bottom_player_text">
+						<div class="bottom_player_name">Lucgr</div>
+						<div class="bottom_player_rating">2654</div>
+					</div>
+					&nbsp;
+				</div>
+				<div class="bottom_player_clock">
+					<div class="bottom_player_timeleft">
+						5:00
+					</div>
+					<div class="bottom_player_timewheel">
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<!-- Right frame -->
+		<div class="right_frame">
+			<h2>TinyChess</h2>
+			<p>Light-weight JavaScript chess UI.</p>
+			<p>Click or drag pieces to make moves.</p>
+			<p>You can chain multiple &quot;pre-moves&quot;, no need to wait for your opponent.</p>
+			<p>Download the source code on <a href="https://github.com/lruijsink/tinychess">GitHub</a>.</p>
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>
